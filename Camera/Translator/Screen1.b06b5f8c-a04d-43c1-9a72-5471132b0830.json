@@ -1,6 +1,6 @@
 {
     "type": "Screen",
-    "translatedName": "Screen",
+    "translatedName": " Photo Screen",
     "reactType": "ViewWithProps",
     "properties": {
         "Height": "Fill container",
@@ -39,15 +39,15 @@
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "BackgroundColor": "rgba(248, 28, 158, 0.52)"
+        "BackgroundColor": "rgba(93, 122, 252, 100)"
     },
     "children": [
         {
             "type": "Label",
-            "translatedName": "Label",
-            "reactType": "Text",
+            "translatedName": "upload",
+            "reactType": "show image from camera",
             "properties": {
-                "Text": "Monet ",
+                "Text": "show image from camera ",
                 "FontSize": 18,
                 "CustomFont": "",
                 "LineHeight": 1,
@@ -105,7 +105,7 @@
             "children": [],
             "id": "a5968001-5527-49a4-98cf-850792f809d5",
             "thunkableVersion": 420,
-            "name": "name label "
+            "name": "scan "
         },
         {
             "type": "Layout",
@@ -158,10 +158,10 @@
             },
             "children": [
                 {
-                    "type": "TextInput",
-                    "translatedName": "Text Input",
+                    "label": "label3",
+                    "translatedName": "describe",
                     "properties": {
-                        "Hint": "Type here",
+                        "Hint": "click here",
                         "Height": 108,
                         "Width": 219,
                         "Visible": true,
@@ -227,7 +227,7 @@
             "name": "Layout1"
         },
         {
-            "type": "TextInput",
+            "label": "label4",
             "translatedName": "Text Input",
             "properties": {
                 "Hint": "",
