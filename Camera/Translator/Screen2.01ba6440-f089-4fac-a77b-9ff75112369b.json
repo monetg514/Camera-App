@@ -1,6 +1,6 @@
 {
     "type": "Screen",
-    "translatedName": "Screen",
+    "translatedName": "Video Screen",
     "reactType": "ViewWithProps",
     "properties": {
         "Height": "Fill container",
@@ -53,10 +53,10 @@
     "children": [
         {
             "type": "Label",
-            "translatedName": "Label",
+            "translatedName": "untimed",
             "reactType": "Text",
             "properties": {
-                "Text": "Label",
+                "Text": "Recording for 5 seconds",
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
@@ -116,11 +116,11 @@
             "name": "Label2"
         },
         {
-            "type": "Label",
-            "translatedName": "Label",
+            "type": "label1",
+            "translatedName": "timed",
             "reactType": "Text",
             "properties": {
-                "Text": "Label",
+                "Text": "Untimed recording",
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
@@ -269,5 +269,5 @@
     ],
     "id": "01ba6440-f089-4fac-a77b-9ff75112369b",
     "thunkableVersion": 405,
-    "name": "Screen2"
+    "name": "Video screen"
 }
